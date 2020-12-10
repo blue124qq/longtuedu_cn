@@ -1,0 +1,212 @@
+.cn-zpbg-box1 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.cn-zpbg-box1 .box1 {
+	margin-bottom: 50px;
+}
+
+.cn-zpbg-box1 .box1 p {
+	color: #949494;
+}
+
+.cn-zpbg-box1 .box-title {
+	color: #c70025;
+}
+
+.cn-zpbg-box1 h3 {
+	font-size: 20px;
+}
+
+.cn-zpbg-box1 .left input,
+.cn-zpbg-box1 .left select,
+.cn-zpbg-box2 input,
+.cn-zpbg-box2 select {
+	background-color: #f0f0f0;
+	color: #000;
+	padding: 10px;
+	border: none;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.cn-zpbg-box1 .left .sf {
+	width: 49%;
+}
+
+.cn-zpbg-box1 .left input[type*="radio"] {
+	width: auto;
+	margin-right: 5px;
+}
+
+.cn-zpbg-box1 .left span {
+	margin-right: 15px;
+}
+
+.cn-zpbg-box1 .right {
+	margin-bottom: 30px;
+}
+
+.cn-zpbg-box1 .right p {
+	color: #9a9a9a;
+}
+
+.cn-zpbg-box1 .input-title,
+.cn-zpbg-box2 .input-title,
+.cn-zpbg-box3 .input-title {
+	margin-bottom: 10px;
+	color: #989898;
+}
+
+.cn-zpbg-box1 .right .img-zp {
+	padding-bottom: 140%;
+	height: 0;
+	background-color: #f1f1f1;
+	position: relative;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.cn-zpbg-box1 .right .img-zp img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.cn-zpbg-box1 .input-file-box {
+	position: relative;
+	overflow: hidden;
+	height: 35px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.cn-zpbg-box1 .input-file-box input,
+.cn-zpbg-box1 .input-file-box button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 35px;
+	width: 100%;
+}
+
+.cn-zpbg-box1 .input-file-box button {
+	border: 1px solid #e0e0e0;
+	background-color: #ebebeb;
+	color: #565656;
+	transition: all .5s;
+}
+
+.cn-zpbg-box1 .input-file-box button:hover {
+	border: 1px solid #c70025;
+	background-color: #c70025;
+	color: #fff;
+}
+
+.cn-zpbg-box2,
+.cn-zpbg-box3 {
+	padding-bottom: 20px;
+}
+
+.cn-zpbg-box4 {
+	padding-bottom: 100px;
+}
+
+.cn-zpbg-box2 h3,
+.cn-zpbg-box3 h3 {
+	font-size: 20px;
+}
+
+.cn-zpbg-box3 .time-input {
+	width: calc(50% - 22px);
+}
+
+.cn-zpbg-box3 .time-text {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.cn-zpbg-box3 input,
+.cn-zpbg-box3 select {
+	background-color: #f0f0f0;
+	color: #000;
+	padding: 10px;
+	border: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.cn-zpbg-box4 .input-file-box {
+	position: relative;
+	overflow: hidden;
+	height: 35px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.cn-zpbg-box4 .input-file-box input,
+.cn-zpbg-box4 .input-file-box button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 35px;
+	width: 100%;
+}
+
+.cn-zpbg-box4 .input-file-box button {
+	border: 1px solid #e0e0e0;
+	background-color: #fff;
+	color: #565656;
+	transition: all .5s;
+}
+
+.cn-zpbg-box4 .input-file-box button:hover {
+	border: 1px solid #c70025;
+	background-color: #c70025;
+	color: #fff;
+}
+
+.cn-zpbg-box4 .box1 a {
+	color: #c70025;
+}
+
+.cn-zpbg-box4 input[type*="submit"] {
+	border: 1px solid #c70025;
+	background-color: #c70025;
+	color: #fff;
+	padding: 10px;
+	width: 100%;
+	transition: all .5s;
+}
+
+.cn-zpbg-box4 input[type*="submit"]:hover {
+	border: 1px solid #c70025;
+	background-color: #fff;
+	color: #c70025;
+}
+
+.form-control {
+	border-radius: 0;
+	height: auto;
+	display: inline-block;
+}
+
+.form-control:focus {
+	border-color: initial;
+	-webkit-box-shadow: initial;
+	box-shadow: initial;
+}
+@media screen and (max-width: 767px) {
+	margin-top: 0px;
+}

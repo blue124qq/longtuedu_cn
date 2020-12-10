@@ -1,0 +1,1944 @@
+
+@font-face {
+	font-family:'NotoSansHans';
+	src: url(http://ir.brightscholar.com/fonts/NotoSansHans-Light.otf);
+}
+body {
+	font-family: "helvetica Neue", helvetica, Arial, "Microsoft Yahei UI", "Microsoft Yahei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	font-family: "微软雅黑","Microsoft Yahei","Microsoft Yahei UI";
+	min-width: 320px;
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+	transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0;
+}
+
+
+/*内页banner开始*/
+.bslen-ny-banner img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+/*内页banner结束*/
+
+/*wap端侧导航开始*/
+.wap-cb-menu ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+.wap-cb-menu-list1>li{
+	padding: 10px 15px;
+	background-color: #a22531;
+	color: #fff;
+}
+.wap-cb-menu-list1>li>span{
+	float: right;
+}
+.wap-cb-menu-list1>li>span>a{
+	color: #fff;
+	text-decoration: none;
+}
+.wap-nav-listbox{
+	background-color: #192041;
+	display: none;
+}
+.wap-nav-listbox .level1,
+.wap-nav-listbox .level2{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.wap-nav-listbox .level2{
+	display: none;
+}
+.wap-nav-listbox .level1>li>a{
+	text-decoration: none;
+	padding: 15px 15px 15px 36px;
+	display: block;
+	color: #fff;
+	border-bottom: 1px solid #263163;
+}
+.wap-nav-listbox .level1>li>a>span{
+	float: right;
+}
+.wap-nav-listbox .level1>li>a>span>i{
+	transition: all 0.3s;
+}
+.wap-nav-listbox .level1>li>a:hover{
+	color: #fff;
+	background-color: #a22631;
+}
+.wap-nav-listbox .level1>li>a.active{
+	color: #a22631;
+}
+.wap-nav-listbox .level1>li>a.active:hover{
+	color: #a22631;
+	background-color: #192041;
+}
+.wap-nav-listbox .level1>li>a.active span>i{
+	transform: rotate(90deg);
+}
+
+.wap-nav-listbox .level2>li>a{
+	text-decoration: none;
+	padding: 15px 15px 15px 60px;
+	display: block;
+	color: #a22631;
+	border-bottom: 1px solid #263163;
+}
+.wap-nav-listbox .level2>li>a:hover{
+	color: #fff;
+	background-color: #a22631;
+}
+/*wap端侧导航结束*/
+
+
+
+/*内页面包屑布局开始*/
+.ny-crumbs{
+	background-color: #f6f6f6;
+	position: relative;
+}
+.ny-crumbs-bg{
+	background-color: #f6f6f6;
+}
+.ny-crumbs ul{
+	list-style: none;
+	padding: 20px 0;
+	margin: 0;
+	text-align: right;
+}
+.ny-crumbs ul li{
+	display: inline-block;
+}
+.ny-crumbs ul li:after{
+	content: "-";
+	margin: 0 5px;
+}
+.ny-crumbs ul li:nth-last-of-type(1):after{
+	content: "";
+	margin: 0px;
+}
+.ny-crumbs ul li>a{
+	color: #666666;
+}
+.ny-crumbs-bgcys-left{
+	display: block;
+	background-color: #fff;
+	position: absolute;
+	right: calc(100% - 15px);
+	top: 0;
+	width:100%;
+	height: 60px;
+}
+.ny-crumbs-bgcys-right{
+	display: block;
+	background-color: #f6f6f6;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width:100%;
+	height: 60px;
+}
+.ny-crumbs-oh{
+	overflow: hidden;
+}
+.ny-crumbs-bttext{
+
+}
+@media screen and (max-width: 1199px) {
+	.ny-crumbs ul{
+		padding: 15px;
+	}
+	.ny-crumbs ul li>a{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.ny-crumbs-oh{
+		background-color: #f6f6f6;
+	}
+	.ny-crumbs-bgcys-left{
+		background-color: #f6f6f6;
+	}
+	.ny-crumbs ul{
+		padding: 10px 0;
+		text-align: left;
+	}
+	.ny-crumbs-bgcys-left,
+	.ny-crumbs-bgcys-right{
+	    display: none;
+	}
+	.ny-crumbs {
+	    padding: 0;
+	}
+}
+/*内页面包屑布局结束*/
+
+/*侧边导航开始*/
+.cb-menu-bttext{
+	background-color: #192041;
+	padding:30px;
+}
+.cb-menu-bttext .text1{
+	color: #fff;
+	text-align: center;
+	font-family: "NotoSansHans";
+	font-size: 45px;
+	margin-bottom: 5px;
+}
+.cb-menu-bttext .text2{
+	color: #fff;
+	text-align: center;
+	font-family: "NotoSansHans";
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+.cb-menu-pytop{
+	transform: translateY(-163px);
+	margin-bottom: 50px;
+}
+.cb-menu-list{
+	background-color: #f6f6f6;
+	padding: 40px 0px;
+	list-style: none;
+}
+.cb-menu-list ul{
+	padding: 5px 0;
+	margin: 0;
+	list-style: none;
+	display: none;
+}
+.cb-menu-list ul>li>a{
+	display: block;
+	padding: 5px 5px 5px 50px;
+	text-decoration: none;
+	color: #666666;
+}
+.cb-menu-list ul>li.active>a{
+	color: #a22631;
+}
+.cb-menu-list ul>li>a:hover{
+	color: #a22631;
+}
+.cb-menu-list ul>li>a.active{
+	color: #a22631;
+}
+.cb-menu-padd{
+	padding-right: 40px;
+}
+.cb-menu-list>li>a{
+	display: block;
+	text-decoration: none;
+	padding: 15px 30px;	
+	color: #222222;
+}
+.cb-menu-list>li>a:hover{
+	background-color: #a22631;
+	color: #fff;
+}
+.cb-menu-list>li.active>a{
+	background-color: #a22631;
+	color: #fff;
+}
+@media screen and (max-width: 1309px) {
+	.cb-menu-bttext .text1 {
+	    font-size: 30px;
+	    margin-bottom: 5px;
+	}
+	.cb-menu-bttext .text2 {
+	    font-size: 27px;
+	    margin-bottom: 5px;
+	}
+	.cb-menu-padd{
+		padding-right: 20px;
+	}
+	.cb-menu-pytop{
+		transform: translateY(-132px);
+		margin-bottom: 50px;
+	}
+	.cb-menu-list li a {
+	    font-size: 12px;
+	}
+	.cb-menu-list {
+	    background-color: #f6f6f6;
+	    padding: 30px 0px;
+	    list-style: none;
+	}
+}
+/*侧边导航结束*/
+
+/*各种表格开始*/
+
+/*stock quote*/
+.stock_quote-table-box{
+	margin-bottom: 20px;
+}
+.stock_quote-table-box h4{
+	background-color: #a22631;
+	color: #fff;
+	padding: 10px;
+	font-size: 14px;
+}
+.stock_quote-table-box h4>span{
+	float: right;
+}
+.stock_quote-table-box h4>span>a{
+	color: #fff;
+	text-decoration: none;
+}
+.stock_quote-table-box .table{
+	width: 100%;
+}
+.stock_quote-table-box .table tr th{
+	padding: 10px;
+}
+.stock_quote-table-box .table tr td{
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.stock_quote-table-box .table tr:nth-last-of-type(1) td{
+	border-bottom: none;
+}
+.stock_quote-table-box .table .table-bt{
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #e1e1e1;
+}
+@media screen and (max-width: 1199px) {
+	.stock_quote-table-box .table tr th {
+	    font-size: 12px;
+	}
+	.stock_quote-table-box .table tr td {
+	    font-size: 12px;
+	}
+}
+
+/*featured items*/
+.featured_items-table-box{
+	margin-bottom: 20px;
+}
+.featured_items-table-box h4{
+	background-color: #a22631;
+	color: #fff;
+	padding: 10px;
+	font-size: 14px;
+}
+.featured_items-table-box h4>span{
+	float: right;
+}
+.featured_items-table-box h4>span>a{
+	color: #fff;
+	text-decoration: none;
+}
+.featured_items-table-box .table{
+	width: 100%;
+}
+.featured_items-table-box .table tr th{
+	padding: 10px;
+}
+.featured_items-table-box .table tr td{
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.featured_items-table-box .table tr:nth-last-of-type(1) td{
+	border-bottom: none;
+}
+.featured_items-table-box .table .table-bt{
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #e1e1e1;
+}
+@media screen and (max-width: 1199px) {
+	.featured_items-table-box .table tr th {
+	    font-size: 12px;
+	}
+	.featured_items-table-box .table tr td {
+	    font-size: 12px;
+	}
+}
+/*event calendar*/
+.event_calendar-table-box{
+	margin-bottom: 20px;
+}
+.event_calendar-table-box-bt{
+	background-color: #a22631;
+	padding: 10px;
+}
+.event_calendar-table-box-bt>h4{
+	background-color: #a22631;
+	color: #fff;
+	font-size: 14px;
+	display: inline-block;
+}
+.event_calendar-table-box-bt>ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.event_calendar-table-box-bt>ul>li{
+	position: relative;
+	display: inline-block;
+}
+.event_calendar-table-box-bt>ul>li>a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+}
+.event_calendar-table-box-bt .Calendar-Help{
+	position: absolute;
+	top:-10px;
+	right: calc(100%);
+	border: 1px solid #999999;
+	padding: 10px;
+	width: 220px;
+	background-color: #fff;
+	display: none;
+	z-index: 999;
+}
+.event_calendar-table-box-bt .Calendar-Help h5,
+.event_calendar-table-box-bt .Calendar-Help p{
+	color: #666666;
+}
+.event_calendar-table-box h4>span>a{
+	color: #fff;
+	text-decoration: none;
+}
+.event_calendar-table-box .overcolor{
+	color: #e3e4e6;
+}
+.event_calendar-table-box .active a{
+	color: #e1534e;
+}
+.event_calendar-table-box table div{
+	text-align: center;
+}
+.event_calendar-table-box table td{
+	height: 40px;
+}
+@media screen and (max-width: 1199px) {
+	.event_calendar-table-box h4 {
+	    font-size: 12px;
+	}
+	.event_calendar-table-box table td{
+		height: 30px;
+	}	
+}
+/*most viewed links*/
+.most_viewed_links-table-box h4{
+	background-color: #a22631;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+.most_viewed_links-table-box .table>p{
+	text-align: right;
+	color: #999999;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.most_viewed_links-table-box .table>div>p{
+	color: #666666;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.most_viewed_links-table-box .table>div>p>a{
+	color: #666666;
+}
+@media screen and (max-width: 1199px) {
+	.most_viewed_links-table-box .table>p {
+	    font-size: 12px;
+	}
+	.most_viewed_links-table-box .table>div>p {
+	    font-size: 12px;
+	}
+}
+
+/*chairperson*/
+.chairperson-table-box .nav1{
+	color: #fff; padding: 0 20px;text-align: center;
+}
+.chairperson-table-box .table2{
+	border: 1px solid #d4d4d4;
+}
+.chairperson-table-box .div-center{
+	text-align: center;padding:10px;
+}
+@media screen and (max-width: 767px) {
+	.chairperson-table-box .nav1 {
+	    font-size: 12px;
+	    padding: 0 10px;
+	}
+	.chairperson-table-box .div-center {
+	    font-size: 12px;
+	}
+}
+/*file type*/
+.file_type-table-box .div-padding{
+	padding: 10px 20px;
+}
+.file_type-table-box a{
+	color: #c70025;
+}
+.file_type-table-box-documents h4{
+	margin-bottom: 15px;
+}
+.file_type-table-box-documents h4>span{
+	float: right;
+	display: inline-block;
+	font-size: 14px;
+}
+.file_type-table-box-documents h4>span>a{
+	color: #a22631;
+	text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+	.file_type-table-box-documents h4{
+		font-size: 16px;
+	}
+	.file_type-table-box-documents h4>span>a {
+	    font-size: 12px;
+	}
+	.file_type-table-box .div-padding {
+	    font-size: 12px;
+	}
+}
+/*各种表格结束*/
+
+/*ir-home中间内容区域开始*/
+.content-box1{
+	padding: 40px 0 0;
+}
+.content-box1 .bttext{
+	margin-bottom: 25px;
+}
+.content-box1 .bttext>span{
+	margin-left: 5px;
+	color: #272f54;
+}
+.content-box1 .bttext2{
+	margin-bottom: 35px;
+}
+.overview-margin{
+	margin-bottom: 100px;
+}
+.bt-timedate{
+	color: #666666;
+	margin-bottom: 30px;
+}
+.bt-timedate span{
+	margin-left: 10px;
+}
+.bt-timedate>div{
+	padding-left: 25px;
+}
+.bt-timedate>div p{
+	margin-bottom: 5px;
+}
+.ir-home-content1{
+	margin-bottom: 35px;
+}
+.ir-home-content1 h3{
+	margin-bottom: 10px;
+}
+.ir-home-content1 p{
+	margin-bottom: 10px;
+	line-height: 1.75em;
+	color: #666666;
+}
+.ir-home-content1 img{
+	max-width: 100%;
+	height: auto;
+}
+.ir-home-content2{
+	margin-bottom: 40px;
+}
+.ir-home-content2 h3{
+	margin-bottom: 10px;
+}
+.ir-home-content2 p{
+	margin-bottom: 10px;
+	line-height: 1.75em;
+	color: #002870;
+	font-size: 18px;
+}
+.ir-home-content2 img{
+	max-width: 100%;
+	height: auto;
+}
+.ir-home-content3{
+	margin-bottom: 40px;
+}
+.ir-home-content3 h3{
+	margin-bottom: 20px;
+}
+.ir-home-content3 span>a{
+	color: #a22631;
+	font-size: 14px;
+	float: right;
+	margin-top: 5px;
+}
+.ir-home-content3-table tr:nth-of-type(1){
+	background-color: #f6f6f6;
+}
+.ir-home-content3-table tr th{
+	padding: 15px;
+}
+.ir-home-content3-table tr td{
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.ir-home-content4 h3{
+	margin-bottom: 10px;
+}
+.ir-home-content4 p{
+	margin-bottom: 10px;
+	color: #666666;
+}
+.ir-home-content4-search{
+	border: 1px solid #d2d2d2;
+	background-color: #f9f9f9;
+	padding: 10px;
+	width: 45%;
+	outline: none;
+}
+.ir-home-content4-searchbtn{
+	color: #fff;
+	margin-left: 10px;
+	background-color: #a22631;
+	padding: 10px 30px;
+	border: none;
+}
+.fgx{
+	border-top: 2px solid #e5e5e5;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1309px) {
+	.content-box1 {
+	    padding: 30px 0 0;
+	}
+	.content-box1 .bttext {
+	    margin-bottom: 20px;
+	}
+	.bt-timedate>div>p{
+	    font-size: 14px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.content-box1 .bttext img{
+	    width: 30px;
+	}
+	.content-box1 .bttext>span {
+	    font-size: 26px;
+	}
+	.bt-timedate>div>p{
+	    font-size: 12px;
+	}
+	.ir-home-content1 {
+	    margin-bottom: 20px;
+	}
+	.ir-home-content1 h3 {
+	    font-size: 20px;
+	}
+	.ir-home-content1 p {
+	    margin-bottom: 10px;
+	    line-height: 1.5em;
+	    color: #666666;
+	}
+	.bt-timedate {
+	    margin-bottom: 20px;
+	}
+	.ir-home-content2 h3{
+	    font-size: 20px;
+	}
+	.ir-home-content2 p {
+	    line-height: 1.5em;
+	    font-size: 16px;
+	}
+	.ir-home-content2 {
+	    margin-bottom: 30px;
+	}
+	.ir-home-content3 h3 {
+	    margin-bottom: 15px;
+	    font-size: 20px;
+	}
+	.ir-home-content3 span>a {
+	    font-size: 12px;
+	}
+	.ir-home-content3-table tr th {
+	    padding: 10px;
+	    
+	}
+	.ir-home-content3-table tr td {
+	    padding: 10px;
+	    font-size: 12px;
+	}
+	.ir-home-content4 h3 {
+	    font-size: 20px;
+	}
+	.ir-home-content4 p {
+	    margin-bottom: 10px;
+	    color: #666666;
+	}
+	.ir-home-content4-search {
+	    padding: 5px 10px;
+	    width: 45%;
+	    font-size: 12px;
+	}
+	.ir-home-content4-searchbtn {
+	    margin-left: 5px;
+	    padding: 6px 20px;
+	    font-size: 12px;
+	}
+	.fgx {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.ir-home-content3 {
+	    margin-bottom: 30px;
+	}
+	.ir-home-content4 p{
+	    margin-bottom: 30px;
+	}
+	.overview-margin{
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.content-box1 {
+	    padding: 15px 0 0;
+	}
+	.content-box1 .bttext>span {
+	    font-size: 20px;
+	}
+	.content-box1 .bttext img {
+	    width: 25px;
+	}
+	.ir-home-content1 h3 {
+	    font-size: 18px;
+	}
+	.ir-home-content2 h3 {
+	    font-size: 18px;
+	}
+	.ir-home-content2 p {
+	    font-size: 14px;
+	}
+	.ir-home-content3 h3 {
+	    font-size: 18px;
+	}
+	.ir-home-content4 h3 {
+	    font-size: 18px;
+	}
+	.ir-home-content3 {
+	    margin-bottom: 30px;
+	}
+	.overview-margin{
+		margin-bottom: 30px;
+	}
+}
+/*ir-home中间内容区域结束*/
+
+/*页面临时底部开始*/
+.ir-home-foot p{
+	padding: 20px;
+	background-color: #192041;
+	color: #7c7e8b;
+	text-align: center;
+}
+@media screen and (max-width: 767px) {
+	.ir-home-foot p{
+		font-size: 12px;
+	}
+}
+/*页面临时底部结束*/
+
+
+/*Events & Presentations内容区域开始*/
+.overview-content-box1{
+	padding-top: 40px;
+	margin-bottom: 30px;
+}
+.overview-content-box1 .bttext{
+	margin-bottom: 15px;
+}
+.overview-content-box1 .bttext span{
+	margin-left: 10px;
+}
+.overview-content-box1 p{
+	color: #666666;
+	margin-bottom: 20px;
+	line-height: 1.75em;
+}
+
+.overview-right{
+	padding-top: 40px;
+}
+.overview-right-box1{
+	padding-top: 40px;
+	margin-bottom: 30px;
+}
+.overview-right-box1 h4{
+	background-color: #a22631;
+	color: #fff;
+	padding: 10px;
+	font-size: 14px;
+}
+.overview-right-box1 h4>span{
+	float: right;
+}
+.overview-right-box1 h4>span>a{
+	color: #fff;
+	text-decoration: none;
+}
+.overview-right-table{
+	width: 100%;
+}
+.overview-right-table tr th{
+	padding: 10px;
+}
+.overview-right-table tr td{
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.overview-right-table tr:nth-last-of-type(1) td{
+	border-bottom: none;
+}
+.overview-right-table .table-bt{
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.overview-content-foot{
+	margin-bottom: 50px;
+}
+.overview-content-foot>div>.row{
+	margin-bottom: 30px;
+}
+.overview-content-foot h4{
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #333333;
+}
+.overview-right .bttext{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.overview-right p{
+	color: #747474;
+	margin-bottom: 15px;
+}
+.events_presentations_webcast{
+	margin-top: 40px;
+}
+@media screen and (max-width: 1309px) {
+	.overview-content-box1 {
+	    padding-top: 30px;
+	    margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.overview-content-box1 .bttext img {
+	    width: 30px;
+	}
+	.overview-content-box1 .bttext>span {
+	    font-size: 26px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.overview-right {
+	    padding-top: 0px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.overview-content-box1 {
+	    padding-top: 15px;
+	    margin-bottom: 20px;
+	}
+	.overview-content-box1 .bttext img {
+	    width: 25px;
+	}
+	.overview-content-box1 .bttext>span {
+	    font-size: 22px;
+	}
+	.overview-content-foot h4 {
+	    font-size: 16px;
+	}
+}
+/*Events & Presentations内容区域结束*/
+
+/*press_releases内容区域开始*/
+.press_releases-content-year{
+	padding-top: 40px;
+	margin-bottom: 15px;
+}
+.press_releases-content-year ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.press_releases-content-year ul>li{
+	display: inline-block;
+}
+.press_releases-content-year ul>li.active>a{
+	background-color: #a22631;
+	color: #fff;
+}
+.press_releases-content-year ul>li>a{
+	text-decoration: none;
+	display: inline-block;
+	color: #666666;
+	padding: 3px 20px;
+	margin-bottom: 10px;
+}
+.press_releases-content-year ul>li>a:hover{
+	background-color: #a22631;
+	color: #fff;
+}
+.press_releases-content-year ul>li:after{
+	content: "|";
+	font-size: 14px;
+	color: #666666;
+	margin-left: 4px;
+}
+.press_releases-content-year ul>li:nth-last-of-type(1):after{
+	content: "";
+	display: none;
+}
+.press_releases-list-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    margin-bottom: 10px;
+}
+.press_releases-list-box .left{
+	width: 100px;
+	margin-right: 10px;
+	padding: 25px 15px;
+	text-align: center;
+	position: relative;
+	border: 1px solid #dfdfdf;
+}
+.press_releases-list-box .right{
+	width: 100px;
+	margin-right: 10px;
+	padding: 25px 15px;
+	text-align: center;
+	position: relative;
+	border: 1px solid #dfdfdf;
+}
+.press_releases-list-box .left>div{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.press_releases-list-box .right>div{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.press_releases-list-box .left>div>h4{
+	color: #666666;
+}
+.press_releases-list-box .left>div>h4:nth-of-type(1){
+	margin-bottom: 10px;
+}
+.press_releases-list-box .center{
+	width: calc(100% - 205px);
+	padding: 15px 15px 40px;
+	position: relative;
+	border: 1px solid #dfdfdf;
+}
+.press_releases-list-box .center>div>h4{
+	line-height: 1.5em;
+	color: #222222;
+}
+.press_releases-list-box .center>div>p{
+	position: absolute;
+	bottom: 15px;
+}
+.press_releases-list-box .center>div>p>a{
+	color: #c70025;
+}
+@media screen and (max-width: 1309px) {
+	.press_releases-content-year {
+	    padding-top: 30px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.press_releases-list-box .center{
+		width: calc(100% - 145px);
+	}
+	.press_releases-list-box .left{
+		width: 70px;
+	}
+	.press_releases-list-box .right{
+		width: 70px;
+	}
+	.press_releases-content-year {
+	    padding-top: 20px;
+	}
+	.press_releases-list-box .center h4{
+	    font-size: 12px;
+	}
+	.press_releases-list-box .left>div>h4{
+	    font-size: 16px;
+	}
+}
+/*press_releases内容区域结束*/
+
+/*press_releases-more内容区域开始*/
+.press_releases-more-top{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.press_releases-more-top>p{
+	margin-bottom: 5px;
+}
+.press_releases-more-top>p>a{
+	color: #666666;
+}
+.press_releases-more-top>p>a>span{
+	margin-right: 10px;
+}
+.press_releases-more-content{
+	margin-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 40px;
+}.press_releases-more-content>h3{
+	margin-bottom: 10px;
+}
+/*press_releases-more内容区域结束*/
+
+/*Press_Releases_View_printe开始*/
+.Press_Releases_View_printe-nav{
+	padding: 15px;
+	background-color: #a22631;
+}
+.Press_Releases_View_printe-nav .left{
+	display: inline-block;
+}
+.Press_Releases_View_printe-nav .right{
+	float: right;
+	display: inline-block;
+}
+.Press_Releases_View_printe-nav .right>a{
+	display: inline-block;
+	padding: 15px;
+	margin-left: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.Press_Releases_View_printe-content-top{
+	padding-bottom: 40px;
+	padding-top: 70px;
+	text-align: center;
+}
+.Press_Releases_View_printe-content-top>h3{
+	margin-bottom: 10px;
+}
+.Press_Releases_View_printe-content{
+	padding: 30px 0px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.Press_Releases_View_printe-footer{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/*Press_Releases_View_printe结束*/
+
+/*编辑版开始*/
+.bjb{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.bjb img{
+	max-width: 100%;
+	height: auto;
+}
+
+.bjb h1,
+.bjb h2,
+.bjb h3,
+.bjb h4,
+.bjb h5,
+.bjb p{
+	color: #333333;
+}
+.bjb p{
+	line-height: 2em;
+}
+/*编辑版结束*/
+
+/*分页开始*/
+.navigation{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.navigation ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navigation ul>li{
+	display: inline-block;
+}
+.navigation ul>li.active>a{
+	border: 1px solid #c70025;
+	color: #fff;
+	background-color: #c70025;
+}
+.navigation ul>li>a{
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #dfdfdf;
+	color: #666666;
+	text-decoration: none;
+	background-color: #fff;
+}
+.navigation ul>li>a:hover{
+	border: 1px solid #c70025;
+	color: #fff;
+	background-color: #c70025;
+}
+@media screen and (max-width: 991px) {
+	.navigation{
+		text-align: center;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
+/*分页结束*/
+
+/*events_&_presentations中间内容区域开始*/
+.events_presentations-year{
+	padding-top: 40px;
+	margin-bottom: 10px;
+}
+.events_presentations-year ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.events_presentations-year ul>li{
+	display: inline-block;
+}
+.events_presentations-year ul>li.active a{
+	color: #fff;
+	background-color: #a22631;
+}
+.events_presentations-year ul>li>a{
+	padding:5px 15px;
+	display: inline-block;
+	border-radius: 15px;
+	border: none;
+	color: #222222;
+	background-color: #e8e8e8;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.events_presentations-year ul>li>a:hover{
+	color: #fff;
+	background-color: #a22631;
+}
+@media screen and (max-width: 1309px) {
+	.events_presentations-year {
+	    padding-top: 30px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.events_presentations-year ul>li>a {
+	    padding: 5px 10px;
+	    margin-right: 5px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.events_presentations-year ul>li>a {
+	    font-size: 12px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.events_presentations-year {
+	    padding-top: 15px;
+	}
+}
+/*events_&_presentations中间内容区域结束*/
+
+/*corporate_Governance开始*/
+.corporate-governance-content-year{
+	margin-bottom: 20px;
+}
+.corporate-governance-p{
+	margin-bottom: 20px;
+}
+.corporate-governance-p>span{
+	margin-right: 50px;
+	margin-bottom: 10px;
+	display: inline-block;
+}.corporate-governance-p>span>img{
+	margin-right: 5px;
+}
+.corporate-governance-content-year ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.corporate-governance-content-year ul>li{
+	display: inline-block;
+}
+.corporate-governance-content-year ul>li>a{
+	color: #222222;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.corporate-governance-content-year ul>li.active>a{
+	color: #a22631;
+}
+.corporate-governance-content-year ul>li:after{
+	content: "|";
+	color: #b8b8b8;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+.corporate-governance-content-year ul>li:nth-last-of-type(1):after{
+	content: "";
+	display: none;
+}
+
+.corporate-governance-navinformation{
+	padding-top:30px;
+	padding-bottom: 50px;
+}
+.corporate-governance-navinformation p{
+	font-size: 18px;
+}
+.corporate-governance-navinformation-content{
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+.corporate-governance-navinformation-content h4{
+	color: #333333;
+	margin-bottom: 20px;
+}
+.corporate-governance-navinformation-content p{
+	line-height: 1.5em;
+	color: #666666;
+}
+.content-box1 .bttext div{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.content-box1 .bttext div a{
+	color: #272f54;
+}
+.corporate-governance-biography-content-left{
+	margin-bottom: 15px;
+}
+.corporate-governance-biography-content-left img{
+	max-width: 100%;
+	height: auto;
+}
+.corporate-governance-biography-content-right .bt>h4:nth-of-type(1){
+	color: #a22631;
+	margin-bottom: 5px;
+}
+.corporate-governance-biography-content-right .bt>h4:nth-of-type(2){
+	color: #333333;
+}
+
+.corporate-governance-management-content{
+	margin-bottom: 100px;
+}
+.corporate-governance-management-content>.row{
+	border-bottom: 2px solid #e2e2e2;
+	padding-top: 30px;
+}
+.corporate-governance-management-content-left{
+	margin-bottom: 30px;
+}
+.corporate-governance-management-content-left img{
+	max-width: 100%;
+	height: auto;
+}
+.corporate-governance-management-content-right .bt>h4:nth-of-type(1){
+	color: #a22631;
+	margin-bottom: 5px;
+}
+.corporate-governance-management-content-right .bt>h4:nth-of-type(2){
+	color: #333333;
+	margin-bottom: 5px;
+}
+@media screen and (max-width: 1309px) {
+	.content-box1 {
+	    padding: 30px 0 0;
+	}
+}
+@media screen and (max-width: 1199px){
+	.content-box1 .bttext>img{
+		width: 30px;
+	}
+	.corporate-governance-navinformation {
+	    padding-top: 20px;
+	    padding-bottom: 40px;
+	}
+	.corporate-governance-management-content{
+		margin-bottom: 70px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.content-box1 {
+	    padding: 15px 0 0;
+	}
+	.corporate-governance-management-content{
+		margin-bottom: 50px;
+	}
+	.content-box1 .bttext>img{
+		width: 25px;
+	}
+	.content-box1 .bttext div{
+		font-size: 12px;
+		margin-top: 15px;
+	}
+	.file_type-table-box-documents{
+		font-size: 16px;
+	}
+	.corporate-governance-navinformation p {
+	    font-size: 16px;
+	}
+	.corporate-governance-navinformation {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+	.corporate-governance-navinformation-content {
+	    padding-top: 25px;
+	    margin-bottom: 70px;
+	}
+	.corporate-governance-navinformation-content h4 {
+	    font-size: 16px;
+	}
+}
+/*corporate_Governance结束*/
+
+/*corporate-governance1开始*/
+.governance_documents1-table{
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+	.governance_documents1-table{
+		margin-bottom: 20px;
+	}
+}
+/*corporate-governance1结束*/
+
+/*corporate_governance-figure开始*/
+.corporate-governance-figure-year ul{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+}
+.corporate-governance-figure-year ul>li{
+	display: inline-block;
+}
+.corporate-governance-figure-year ul>li>a{
+	color: #222222;
+}
+.corporate-governance-figure-year ul>li.active>a{
+	color: #a22631;
+}
+.corporate-governance-figure-year ul>li>a:hover{
+	color: #a22631;
+}
+.corporate-governance-figure-year ul>li:after{
+	content: "|";
+	margin-left: 10px;
+	margin-right: 8px;
+	color: #b8b8b8;
+}
+.corporate-governance-figure-year ul>li:nth-last-of-type(1):after{
+	content: "";
+	display: none;
+}
+.corporate_governance-figure{
+	margin-bottom: 100px;
+}
+.corporate_governance-figure-box .figure-hx{
+	width: 50px;
+	display: block;
+	height: 1px;
+	background-color: #a22631;
+	margin-bottom: 10px;
+}
+.corporate_governance-figure-box{
+	border-bottom: 2px solid #e2e2e2;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.corporate_governance-figure-box:nth-of-type(1){
+	padding-top: 10px;
+}
+.corporate_governance-figure-box h3{
+	color: #222222;
+	margin-bottom: 10px;
+	
+}
+.corporate_governance-figure-box p:nth-of-type(1){
+	color: #a1a1a1;
+	margin-bottom: 10px;
+}
+.corporate_governance-figure-box p:nth-of-type(2){
+	color: #666666;
+	line-height: 1.75em;
+}
+@media screen and (max-width: 1199px) {
+	.corporate_governance-figure-box {
+	    padding-bottom: 30px;
+	    padding-top: 30px;
+	}
+	.corporate_governance-figure-box h3 {
+	    font-size: 22px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.corporate_governance-figure-box {
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	}
+	.corporate_governance-figure-box h3 {
+	    font-size: 18px;
+	}
+	.corporate_governance-figure-box p:nth-of-type(2) {
+	    line-height: 1.5em;
+	}
+	.corporate_governance-figure {
+	    margin-bottom: 70px;
+	}
+}
+/*corporate_governance-figure结束*/
+
+/*corporate-governance_board_of_directors开始*/
+.corporate-governance_board_of_directors{
+	margin-bottom: 100px;
+}
+.corporate-governance_board_of_directors-box{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.corporate-governance_board_of_directors-box span{
+	display: inline-block;
+	font-size: 18px;
+}
+.corporate-governance_board_of_directors-box a>span{
+	color: #222222;
+}
+.corporate-governance_board_of_directors-box a:hover>span{
+	color: #a22631;
+}
+.corporate-governance_board_of_directors-box a>span:nth-of-type(1){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.corporate-governance_board_of_directors-box span:nth-last-of-type(1){
+	font-size: 12px;
+	color: #999999;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+	.corporate-governance_board_of_directors{
+		margin-bottom: 70px;
+	}
+	.corporate-governance_board_of_directors-box a>span:nth-of-type(1) {
+	   	font-size: 16px;
+	}
+}
+/*corporate-governance_board_of_directors结束*/
+
+/*financials-filings开始*/
+.financials-filings-navfile{
+	margin-bottom: 20px;
+}
+.financials-filings-navfile p{
+	margin-bottom: 10px;
+}
+.financials-filings-navfile a{
+	color: #222222;
+}
+.financials-filings-navfile a:hover{
+	color: #a22631;
+}
+.corporate_governance4{
+	margin-bottom: 100px;
+}
+.financials-filings-contentbox{
+	margin-bottom: 100px;
+}
+.Financials_Filings_Quarterly_Results-bt .bttext{
+	margin-bottom: 0;
+}
+.Financials_Filings_Quarterly_Results-nf{
+	padding-top: 20px;
+}
+.financials_filings-sec-filings-xhx{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.financials_filings-sec-filings-input>div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.financials_filings-sec-filings-input input,
+.financials_filings-sec-filings-input select{
+	background-color: #f6f6f6;
+	border: 1px solid #c6c6c6;
+	padding: 5px 10px;
+	outline: none;
+}
+.financials_filings-sec-filings-input p{
+	margin-bottom: 5px;
+}
+.financials_filings-sec-filings-input input[type*="submit"]{
+	background-color: #a22631;
+	color: #fff;
+	border: 1px solid #a22631;
+	margin-left: -5px;
+	width: 100px;
+	
+}
+.financials_filings-sec-filings-content{
+	margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
+	.financials-filings-navfile p{
+		margin-bottom: 5px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.corporate_governance4{
+		margin-bottom: 70px;
+	}
+	.financials-filings-contentbox{
+		margin-bottom: 70px;
+	}
+}
+/*financials-filings结束*/
+
+/*Stock_Information开始*/
+.stock_information-table{
+	margin-bottom: 100px;
+}
+.stock_information_stock_quote-bt{
+	background-color: #a22631;
+	padding: 10px;
+	color: #fff;
+}
+.stock_information_stock_quote-nr{
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	display: block;
+}
+.stock_information_stock_quot-table{
+	display: block;
+	margin-top: 20px;
+}
+.stock_information_stock_quote-redcolor{
+	color: #a22631;
+}
+.stock_information_stock_quote-graycolor{
+	color: #999999;
+}
+.stock_information_stock_quote-tablefooter{
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.stock_information_stock_quote-footer{
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.stock_information_stock_quote-footer img{
+	margin-bottom: 10px;
+}
+.stock_information_stock_chart-img{
+	margin-top: 20px;
+}
+.stock_information_stock_chart-img img{
+	max-width: 100%;
+	height: auto;
+}
+.stock_information_stock_chart-text>div{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #999999;
+}
+.stock_information_stock_chart-inputbox>div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.stock_information_stock_chart-inputbox input,
+.stock_information_stock_chart-inputbox select{
+	padding: 5px 10px;
+	background-color: #f6f6f6;
+	border: 1px solid #c6c6c6;
+	outline: none;
+	width: 100%;
+}
+.stock_information_stock_chart-inputbtn{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.stock_information_stock_chart-inputbtn input{
+	padding: 7px 10px;
+	color: #fff;
+	background-color: #a22631;
+	border: none;
+	width: 120px;
+}
+.stock_information_historical_price_lookup select,
+.stock_information_historical_price_lookup input{
+	padding: 5px 10px;
+	background-color: #f6f6f6;
+	border: 1px solid #c6c6c6;
+	width: 100%;
+	margin-bottom: 10px;
+	outline: none;
+}
+.stock_information_historical_price_lookup-btn{
+	margin-top: 20px;
+}
+.stock_information_historical_price_lookup-btn input{
+	padding: 5px 10px;
+	background-color: #a22631;
+	color: #fff;
+	border: none;
+	width: 100px;
+}
+
+
+.stock_information_historical_price_lookup-bt{
+	background-color: #f6f6f6;
+	padding: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+.stock_information_historical_price_lookup-nr{
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	display: block;
+}
+.stock_information_historical_price_lookup-table{
+	display: block;
+	margin-top: 20px;
+}
+.stock_information_historical_price_lookup-footer{
+	margin-bottom: 50px;
+	margin-top: 30px;
+	color: #a1a1a1;
+}
+.stock_information_historical_price_lookup-footer p{
+	margin-bottom: 15px;
+}
+.stock_information_analyst_coverage-nr{
+	border-bottom: 1px solid #e5e5e5;
+}
+.stock_information_analyst_coverage-nr>div>.row>div{
+	padding: 10px;
+}
+@media screen and (max-width: 767px) {
+	.stock_information-table{
+		margin-bottom: 70px;
+	}
+}
+/*Stock_Information结束*/
+
+/*investor-FAQs开始*/
+.investor-faqs-content-search{
+	margin-bottom: 50px;
+}
+.investor-faqs-content-search input{
+	background-color: #f6f6f6;
+	border: none;
+	padding: 12px 20px;
+	border-radius: 5px 0 0 5px;
+	width: 50%;
+	box-shadow: 1px 1px 5px #e6e6e6;
+	outline:none;
+}
+.investor-faqs-content-search a{
+	background-color: #e8e8e8;
+	display: inline-block;
+	padding: 12px;
+	margin-left: -4px;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 1px 1px 5px #e6e6e6;
+}
+.investor-faqs-content-search a>i{
+	color: #666666;
+}
+.investor-faqs-content-search a:hover{
+	background-color: #a22631;
+}
+.investor-faqs-content-search a:hover>i{
+	background-color: #fff;
+}
+.investor-faqs-content-search-icon2{
+	display: none;
+}
+.investor-faqs-content-search a:hover .investor-faqs-content-search-icon2{
+	display: block;
+}
+.investor-faqs-content-search a:hover .investor-faqs-content-search-icon1{
+	display: none;
+}
+.press_releases-content-list{
+	border-top: 1px dashed #bababa;
+	margin-bottom: 100px;
+}
+.press_releases-content-listbox{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px dashed #bababa;
+}
+.press_releases-content-listbox h3{
+	margin-bottom: 20px;
+}
+.press_releases-content-listbox p{
+	color: #666666;
+}
+@media screen and (max-width: 1309px) {
+	.investor-faqs-content-search {
+	    margin-bottom: 40px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.investor-faqs-content-search {
+	    margin-bottom: 30px;
+	}
+	.press_releases-content-listbox h3 {
+	    font-size: 22px;
+	    margin-bottom: 10px;
+	}
+	.press_releases-content-listbox {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.press_releases-content-listbox h3 {
+	    font-size: 18px;
+	}
+	.press_releases-content-listbox {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+	.investor-faqs-content-search {
+	    margin-bottom: 20px;
+	}
+	.investor-faqs-content-search input {
+	    padding: 7px 15px;
+	    border-radius: 5px 0 0 5px;
+	    width: calc(100% - 35px);
+	}
+	.investor-faqs-content-search a {
+	    padding: 7px;
+	    margin-left: -4px;
+	    border-radius: 0 5px 5px 0;
+	    box-shadow: 1px 1px 5px #e6e6e6;
+	}
+	.investor-faqs-content-search a img{
+	    width: 20px;
+	}
+	.press_releases-content-list{
+		margin-bottom: 70px;
+	}
+}
+/*investor-FAQs结束*/
+
+/*Contact-Us开始*/
+.contact_us-content{
+	margin-bottom: 100px;
+}
+.contact_us-box1{
+	border-bottom: 2px solid #e8e8e8;
+}
+.contact_us-box1 h3{
+	margin-bottom: 25px;
+	color: #222222;
+}
+.contact_us-box1 p{
+	color: #222222;
+}
+.contact_us-box1 .hz{
+	margin-bottom: 5px;
+}
+.contact_us-box1 .mhz{
+	margin-bottom: 50px;
+}
+
+.contact_us-box2{
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+.contact_us-box2 h3{
+	margin-bottom: 10px;
+	color: #222222;
+}
+.contact_us-box2 p{
+	color: #222222;
+}
+.contact_us-box2-input{
+	margin-top: 20px;
+}
+.contact_us-box2-input input{
+	padding: 5px 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #d2d2d2;
+	outline: none;
+}
+.contact_us-box2-input input[type*="submit"]{
+	background-color: #a22631;
+	color: #fff;
+	border: 1px solid #a22631; 
+	width: 100px;
+}
+.contact_us-box2-input input[type*="button"]{
+	background-color: #a22631;
+	color: #fff;
+	border: 1px solid #a22631; 
+	width: 100px;
+}
+@media screen and (max-width: 1199px) {
+	.contact_us-box1 h3 {
+	    margin-bottom: 20px;
+	    font-size: 22px;
+	}
+	.contact_us-box1 .hz {
+	    margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.contact_us-box1 h3 {
+	    font-size: 18px;
+	}
+}
+
+
+.Information_Request-form{
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+			.Information_Request-form span{
+				color: #a22631;
+				font-size: 18px;
+			}
+			.Information_Request-form input,
+			.Information_Request-form select,
+			.Information_Request-form textarea{
+				padding: 5px 10px;
+			    background-color: #f9f9f9;
+			    border: 1px solid #d2d2d2;
+			    outline: none;
+			    width: 100%;
+			}
+			.Information_Request-form textarea{
+				resize: none;
+				height:100px;
+			}
+			.Information_Request-form p{
+				margin-top: 10px;
+			}
+			.Information_Request-bt{
+				color: #a22631;
+			}
+			.Information_Request-form-sub{
+				background-color: #a22631;
+			    color: #fff;
+			    border: 1px solid #a22631;
+			    width: 100px;
+			    transition: all .4s;
+			}
+			.Information_Request-form-sub:hover{
+				background-color: #fff;
+			    color: #a22631;
+			    border: 1px solid #a22631;
+			}
+/*Contact-Us结束*/
+.Analyst_Coverage-table-p{
+				margin-top: 15px;
+				margin-bottom: 15px;
+				font-size:12px;
+			}
+			
+
+/*Event Setails开始*/
+.Event_Setails{
+	padding-top: 40px;
+	margin-bottom: 15px;
+}
+.Event_Setails .bttext {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.Event_Setails p {
+    margin-bottom: 5px;
+}
+.Event_Setails a {
+	text-decoration: underline;
+}
+.Event_Setails-table{
+	margin-top: 15px;
+}
+.Event_Setails-table-foot-p{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 10px;
+}
+@media screen and (max-width: 991px) {
+	.Event_Setails {
+	    padding-top: 0px;
+	}
+}
+/*Event Setails开始*/
